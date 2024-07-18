@@ -1,0 +1,4 @@
+//variaveis
+speedbase = 1
+global.vida = 100
+global.ponto1 = 0
