@@ -1,0 +1,2 @@
+draw_text(10, 10, string(global.vida));
+draw_text(40, 10, string(global.ponto1));
