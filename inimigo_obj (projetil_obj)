@@ -1,0 +1,4 @@
+instance_destroy();
+global.vida += 1;
+global.ponto1 += 10;
+audio_play_sound(danov2, 2, false)
