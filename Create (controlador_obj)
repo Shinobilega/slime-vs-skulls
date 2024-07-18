@@ -1,0 +1,6 @@
+// Inicia a música de fundo e define para tocar em loop
+audio_play_sound(background_music, 1, true);
+
+// Evento Create do obj_controlador
+tempo_ate_proximo_inimigo = irandom_range(60, 300);
+// De 1 a 10 segundos (1 segundo = 60 steps)
