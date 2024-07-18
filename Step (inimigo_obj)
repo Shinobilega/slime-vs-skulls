@@ -1,0 +1,5 @@
+// Obtém a direção para o protagonista
+var dir = point_direction(x, y, protagonista_obj.x, protagonista_obj.y);
+
+// Move o inimigo na direção do protagonista
+motion_set(dir, speedinimigo);
