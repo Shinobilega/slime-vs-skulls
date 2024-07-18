@@ -1,0 +1,6 @@
+// Criar o projétil
+var proj = instance_create_layer(x, y, layer, projetil_obj);
+
+// Definir a direção e a velocidade do projétil
+proj.direction = point_direction(x, y, mouse_x, mouse_y);
+proj.speed = 1; // Ajuste a velocidade conforme necessário
