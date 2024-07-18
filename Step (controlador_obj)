@@ -1,0 +1,12 @@
+// Evento Step do obj_controlador
+if (tempo_ate_proximo_inimigo > 0) {
+    tempo_ate_proximo_inimigo -= 1;
+} else {
+    // Cria o inimigo em uma posição aleatória
+    var pos_x = irandom(room_width);
+    var pos_y = irandom(room_height);
+    instance_create_layer(pos_x, pos_y, "Instances", inimigo_obj);
+
+    // Redefine o tempo até o próximo inimigo aparecer
+    tempo_ate_proximo_inimigo = irandom_range(60, 300); // De 1 a 10 segundos
+}
